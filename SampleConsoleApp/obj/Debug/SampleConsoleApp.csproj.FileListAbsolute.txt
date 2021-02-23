@@ -1,0 +1,6 @@
+C:\Users\SivaperumanK\source\repos\SampleConsoleApp\SampleConsoleApp\bin\Debug\SampleConsoleApp.exe.config
+C:\Users\SivaperumanK\source\repos\SampleConsoleApp\SampleConsoleApp\bin\Debug\SampleConsoleApp.exe
+C:\Users\SivaperumanK\source\repos\SampleConsoleApp\SampleConsoleApp\bin\Debug\SampleConsoleApp.pdb
+C:\Users\SivaperumanK\source\repos\SampleConsoleApp\SampleConsoleApp\obj\Debug\SampleConsoleApp.csprojAssemblyReference.cache
+C:\Users\SivaperumanK\source\repos\SampleConsoleApp\SampleConsoleApp\obj\Debug\SampleConsoleApp.exe
+C:\Users\SivaperumanK\source\repos\SampleConsoleApp\SampleConsoleApp\obj\Debug\SampleConsoleApp.pdb

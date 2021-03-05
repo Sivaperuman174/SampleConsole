@@ -10,7 +10,7 @@ namespace SampleConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hello this is sample application : running time is : {DateTime.Now}");
+            Console.WriteLine("Hello this is sample application : running time is :" + DateTime.Now.ToString());
         }
     }
 }

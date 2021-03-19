@@ -1,0 +1,42 @@
+pipeline {
+    agent 
+    {
+        label 'SmartEstimator_Node'
+    }
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World from groovy script'
+            }
+        }
+        stage('second')
+        {
+            steps{
+                echo 'This is second stage going on'
+            }
+        }
+        stage('git source code downloading..')
+        {
+            steps{
+                git credentialsId: 'cf479d1b-acec-4206-980d-40caa1c0697e', url: 'https://github.com/Sivaperuman174/SampleConsole.git'
+            }
+        }
+    }
+    post
+    {
+        always
+        {
+            echo 'Always block executing'
+        }
+        success
+        {
+         echo 'Success block executing'
+        }
+        failure
+        {
+            echo 'Failure block executing'
+        }
+    }
+    
+}
